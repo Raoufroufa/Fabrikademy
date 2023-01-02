@@ -1,0 +1,2006 @@
+body {
+	background-color: #ffffff;
+	font-family: "Merriweather", sans-serif;
+	margin: 0;
+}
+
+img {
+	width: 100%;
+}
+
+header {
+	display: flex;
+	align-items: center;
+	position: absolute;
+	height: 135px;
+	width: 100%;
+	top: 44px;
+	background: rgba(123, 119, 119, 0.8);
+	z-index: 3;
+}
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.logo {
+	width: 164px;
+	height: 130px;
+	margin: 2px 410px 3px 28px;
+}
+.hidden {
+	display: none;
+}
+
+.navbar {
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	background: rgba(217, 217, 217, 0.7);
+	margin: 40px 80px 40px 0px;
+	padding: 10px 23px 10px 22px;
+	width: 713px;
+	height: 35px;
+}
+
+.navbar li {
+	display: block;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 22px;
+	line-height: 28px;
+}
+
+.banner {
+	background: url(./Images/zyro-image.png) no-repeat 50%;
+	background-size: cover;
+	background-position: center;
+	height: 1024px;
+	padding-top: 1px;
+}
+
+h1 {
+	margin-top: 394px;
+	margin-left: 11px;
+	margin-right: 0px;
+	width: 863px;
+	height: 141px;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 55px;
+	line-height: 69px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: rgba(123, 119, 119, 0.8);
+}
+
+.title {
+	width: 543px;
+	height: 152px;
+	margin-left: 48px;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 55px;
+	line-height: 69px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: rgba(123, 119, 119, 0.8);
+}
+
+.name {
+	margin-top: 46px;
+	margin-left: 144px;
+	width: 373px;
+	height: 89px;
+	margin-bottom: 213px;
+	font-style: italic;
+	font-weight: 700;
+	font-size: 60px;
+	line-height: 75px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+
+	color: #38b6ff;
+}
+
+span {
+	color: #004aad;
+}
+
+.container1 {
+	position: relative;
+	height: 1024px;
+
+	top: 25px;
+}
+
+.about {
+	position: absolute;
+	height: 83px;
+	width: 527px;
+	left: 65px;
+	top: 179px;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 38px;
+	line-height: 60px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: #7b7777;
+}
+
+.about1 {
+	position: absolute;
+	width: 537px;
+	height: 382px;
+	left: 91px;
+	top: 300px;
+	font-family: "Merriweather Sans";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 28px;
+	line-height: 35px;
+	display: flex;
+	align-items: center;
+	color: rgba(0, 0, 0, 0.65);
+}
+
+.button {
+	position: absolute;
+	width: 340px;
+	height: 101px;
+	left: 123px;
+	top: 776px;
+	background: #a3bb98;
+	box-shadow: inset 0px 4px 10px rgb(0 0 0 / 25%);
+	border-radius: 50px;
+}
+
+.but_text {
+	width: 245px;
+	height: 45px;
+	left: 170px;
+	top: 804px;
+	font-family: "Merriweather Sans";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 36px;
+	line-height: 45px;
+	display: flex;
+	align-items: center;
+	margin-left: 47px;
+	margin-top: 28px;
+	margin-right: 0px;
+	margin-bottom: 28px;
+	/* align-items: center; */
+	justify-content: center;
+}
+
+.grey {
+	position: absolute;
+	width: 528px;
+	height: 872px;
+	left: 740px;
+	top: 39px;
+	right: 122px;
+	background: #a3bb98;
+}
+
+.img1 {
+	position: absolute;
+	width: 480px;
+	height: 534px;
+	left: 830px;
+	top: 54px;
+}
+
+.img2 {
+	position: absolute;
+	width: 616px;
+	height: 350px;
+	left: 630px;
+	top: 606px;
+}
+
+.container2 {
+	position: relative;
+	height: 1024px;
+}
+
+.img3 {
+	position: absolute;
+	width: 562px;
+	height: 750px;
+	left: 50px;
+	top: 76px;
+}
+
+.img4 {
+	position: absolute;
+	width: 528px;
+	height: 688px;
+	left: 120px;
+	top: 259px;
+}
+.about2 {
+	position: absolute;
+	width: 542px;
+	height: 561px;
+	left: 750px;
+	top: 241px;
+	background: #aeaeae;
+	box-shadow: 20px 20px 4px rgb(0 0 0 / 25%);
+}
+.about2 p {
+	width: 500px;
+	height: 500px;
+	left: 837px;
+	top: 285px;
+	font-family: "Merriweather Sans";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 28px;
+	line-height: 35px;
+	display: flex;
+	align-items: center;
+	color: #ffffff;
+	margin-left: 25px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.container3 {
+	position: relative;
+	height: 1024px;
+	top: 28px;
+}
+
+.img5 {
+	position: absolute;
+	width: 961px;
+	height: 699px;
+	left: 240px;
+	top: 162px;
+}
+
+.projects {
+	position: absolute;
+	background: rgba(255, 177, 0, 0.95);
+	border-radius: 200px;
+	width: 350px;
+	height: 350px;
+	top: 70px;
+	left: 70px;
+}
+
+.img6 {
+	position: absolute;
+	width: 86px;
+	height: 100px;
+	left: 130px;
+	top: 50px;
+}
+.pro {
+	position: absolute;
+	width: 180px;
+	height: 53px;
+	left: 85px;
+	top: 200px;
+	font-family: "Merriweather Sans";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 50px;
+	display: flex;
+	align-items: center;
+	color: #ffffff;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	justify-content: center;
+}
+.pro_100 {
+	position: absolute;
+	width: 75px;
+	height: 50px;
+	left: 135px;
+	top: 260px;
+	font-family: "Merriweather Sans";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 50px;
+	display: flex;
+	align-items: center;
+	color: #ffffff;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	justify-content: center;
+}
+.awards {
+	position: absolute;
+	width: 350px;
+	height: 350px;
+	right: 0px;
+	top: 70px;
+	left: 950px;
+	background: rgba(255, 177, 0, 0.95);
+	/* filter: blur(5px); */
+	border-radius: 200px;
+}
+.img7 {
+	position: absolute;
+	width: 86px;
+	height: 100px;
+	left: 140px;
+	top: 50px;
+	right: 0px;
+}
+.awar {
+	position: absolute;
+	width: 154px;
+	height: 50px;
+	top: 200px;
+	left: 100px;
+	font-family: "Merriweather Sans";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 50px;
+	display: flex;
+	align-items: center;
+	color: #ffffff;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	justify-content: center;
+}
+.awar_60 {
+	position: absolute;
+	width: 56px;
+	height: 50px;
+	top: 260px;
+	left: 150px;
+	font-family: "Merriweather Sans";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 50px;
+	display: flex;
+	align-items: center;
+	color: #ffffff;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	right: 0px;
+	justify-content: center;
+}
+.clients {
+	position: absolute;
+	width: 350px;
+	height: 350px;
+	left: 70px;
+	top: 570px;
+	background: rgba(255, 177, 0, 0.95);
+	border-radius: 200px;
+}
+.img8 {
+	position: absolute;
+	width: 86px;
+	height: 100px;
+	left: 130px;
+	top: 50px;
+}
+.cli {
+	position: absolute;
+	width: 146px;
+	height: 50px;
+	left: 100px;
+	top: 190px;
+	font-family: "Merriweather Sans";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 50px;
+	display: flex;
+	align-items: center;
+	color: #ffffff;
+	justify-content: center;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.cli_50 {
+	position: absolute;
+	width: 53px;
+	height: 50px;
+	left: 150px;
+	top: 240px;
+	font-family: "Merriweather Sans";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 50px;
+	display: flex;
+	align-items: center;
+	color: #ffffff;
+	justify-content: center;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.team {
+	position: absolute;
+	width: 350px;
+	height: 350px;
+	top: 570px;
+	left: 950px;
+	background: rgba(255, 177, 0, 0.95);
+	border-radius: 200px;
+}
+.img9 {
+	position: absolute;
+	width: 86px;
+	height: 100px;
+	left: 140px;
+	top: 50px;
+}
+.team_1 {
+	position: absolute;
+	width: 194px;
+	height: 50px;
+	top: 190px;
+	left: 85px;
+	font-family: "Merriweather Sans";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 50px;
+	display: flex;
+	align-items: center;
+	color: #ffffff;
+	justify-content: center;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.team_15 {
+	position: absolute;
+	width: 44px;
+	height: 50px;
+	top: 240px;
+	left: 160px;
+	font-family: "Merriweather Sans";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 50px;
+	display: flex;
+	align-items: center;
+	color: #ffffff;
+	justify-content: center;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+#services {
+	position: relative;
+	width: 100%;
+	height: 1024px;
+	background: #d1d2d0;
+}
+.img10 {
+	position: absolute;
+	width: 1080px;
+	height: 746px;
+	left: 210px;
+	top: 53px;
+}
+.services-title {
+	position: absolute;
+	width: 418px;
+	height: 106px;
+	left: 511px;
+	top: 30px;
+	background: rgba(123, 119, 119, 0.5);
+	border-radius: 40px;
+}
+.services-title h2 {
+	position: absolute;
+	width: 297px;
+	height: 75px;
+	left: 60px;
+	top: 10px;
+	font-family: "Merriweather Sans";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 70px;
+	line-height: 88px;
+	display: flex;
+	align-items: center;
+	color: #ffffff;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	justify-content: center;
+}
+.design_concept {
+	position: absolute;
+	width: 314px;
+	height: 434px;
+	left: 68px;
+	top: 512px;
+	background: rgba(255, 255, 255, 0.85);
+}
+.design_concept h3 {
+	margin-top: 38px;
+	margin-bottom: 38px;
+	/* position: absolute; */
+	width: 291px;
+	height: 48px;
+	left: 79px;
+	top: 547px;
+	font-family: "Merriweather Sans";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 38px;
+	line-height: 48px;
+	display: flex;
+	align-items: center;
+	color: #7b7777;
+	justify-content: center;
+	margin-right: 0px;
+}
+.design_concept p {
+	width: 276px;
+	height: 276px;
+	left: 94px;
+	top: 629px;
+	font-family: "Merriweather Sans";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 30px;
+	display: flex;
+	align-items: center;
+	color: #7b7777;
+	justify-content: center;
+	margin-left: 20px;
+}
+.space_planning {
+	position: absolute;
+	width: 314px;
+	height: 434px;
+	left: 417px;
+	top: 512px;
+	background: rgba(255, 255, 255, 0.85);
+}
+.space_planning h3 {
+	width: 285px;
+	height: 48px;
+	left: 435px;
+	top: 547px;
+	font-family: "Merriweather Sans";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 38px;
+	line-height: 48px;
+	display: flex;
+	align-items: center;
+	color: #7b7777;
+	justify-content: center;
+}
+.space_planning p {
+	width: 276px;
+	height: 276px;
+	left: 436px;
+	top: 627px;
+	font-family: "Merriweather Sans";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 30px;
+	display: flex;
+	align-items: center;
+	color: #7b7777;
+	margin-left: 20px;
+	justify-content: center;
+}
+.lighting {
+	position: absolute;
+	width: 314px;
+	height: 434px;
+	left: 766px;
+	top: 512px;
+	background: rgba(255, 255, 255, 0.85);
+}
+.lighting h3 {
+	width: 159px;
+	height: 48px;
+	left: 843px;
+	top: 547px;
+	font-family: "Merriweather Sans";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 38px;
+	line-height: 48px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: #7b7777;
+	justify-content: center;
+	margin-left: 70px;
+}
+.lighting p {
+	width: 276px;
+	height: 276px;
+	left: 789px;
+	top: 627px;
+	font-family: "Merriweather Sans";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 30px;
+	display: flex;
+	align-items: center;
+	color: #7b7777;
+	margin-left: 20px;
+	justify-content: center;
+}
+.but {
+	position: absolute;
+	width: 160px;
+	height: 160px;
+	left: 1140px;
+	top: 740px;
+	background: #ffffff;
+	border-radius: 100px;
+}
+.cercle {
+	position: absolute;
+	width: 110px;
+	height: 110px;
+	left: 22px;
+	top: 26px;
+	background: #d9d9d9;
+	box-shadow: 10px 5px 4px rgb(0 0 0 / 25%);
+	border-radius: 100px;
+}
+#butt {
+	position: absolute;
+	width: 60px;
+	height: 105px;
+	left: 1307px;
+	top: 818px;
+	/* height: 115px; */
+	left: 27px;
+	top: 5px;
+	font-family: "Merriweather Sans";
+	font-style: italic;
+	font-weight: bold;
+	font-size: 96px;
+	line-height: 121px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: #7b7777;
+}
+#team {
+	position: relative;
+	/* width: 1440px; */
+	height: 1024px;
+	background: #ffffff;
+}
+.img11 {
+	position: absolute;
+	width: 1250px;
+	height: 433px;
+	left: 40px;
+	top: 53px;
+}
+.team_title {
+	position: absolute;
+	width: 410px;
+	height: 113px;
+	left: 140px;
+	top: 96px;
+	font-family: "Merriweather Sans";
+	font-style: italic;
+	font-weight: 800;
+	font-size: 90px;
+	line-height: 113px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: #ffffff;
+	text-shadow: 0px 6px 4px rgb(0 0 0 / 75%);
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.persons {
+	position: absolute;
+	width: 1200px;
+	height: 444px;
+	left: 70px;
+	top: 390px;
+	background: rgba(241, 240, 240, 0.8);
+}
+.person1 {
+	position: absolute;
+	width: 268px;
+	height: 368px;
+	left: 5px;
+	top: 10px;
+}
+.img12 {
+	position: absolute;
+	width: 250px;
+	height: 250px;
+	left: 10px;
+	top: 10px;
+	border-radius: 200px;
+}
+.name1 {
+	position: absolute;
+	width: 143px;
+	height: 45px;
+	left: 70px;
+	top: 270px;
+	font-family: "Merriweather Sans";
+	font-style: normal;
+	font-weight: 800;
+	font-size: 36px;
+	line-height: 45px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	justify-content: center;
+	color: #7b7777;
+}
+.position1 {
+	position: absolute;
+	width: 257px;
+	height: 45px;
+	left: 10px;
+	top: 320px;
+	font-family: "Merriweather Sans";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 36px;
+	line-height: 45px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: #7b7777;
+	margin-top: 0px;
+	justify-content: center;
+	margin-bottom: 0px;
+}
+.person2 {
+	position: absolute;
+	width: 250px;
+	height: 368px;
+	left: 310px;
+	top: 10px;
+}
+.img13 {
+	position: absolute;
+	width: 300px;
+	height: 250px;
+	left: 0px;
+	top: 0px;
+	border-radius: 150px;
+}
+.name2 {
+	position: absolute;
+	width: 100px;
+	height: 45px;
+	left: 100px;
+	top: 270px;
+	font-family: "Merriweather Sans";
+	font-style: normal;
+	font-weight: 800;
+	font-size: 36px;
+	line-height: 45px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: #7b7777;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	justify-content: center;
+}
+.position2 {
+	position: absolute;
+	width: 250px;
+	height: 45px;
+	left: 30px;
+	top: 320px;
+	font-family: "Merriweather Sans";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 36px;
+	line-height: 45px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: #7b7777;
+	justify-content: center;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.person3 {
+	position: absolute;
+	width: 250px;
+	height: 368px;
+	left: 620px;
+	top: 5px;
+}
+.img14 {
+	position: absolute;
+	width: 250px;
+	height: 250px;
+	left: 10px;
+	top: 0px;
+	border-radius: 200px;
+}
+.name3 {
+	position: absolute;
+	width: 126px;
+	height: 45px;
+	left: 70px;
+	top: 280px;
+	font-family: "Merriweather Sans";
+	font-style: normal;
+	font-weight: 800;
+	font-size: 36px;
+	line-height: 45px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: #7b7777;
+	justify-content: center;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.position3 {
+	position: absolute;
+	width: 229px;
+	height: 45px;
+	left: 30px;
+	top: 330px;
+	font-family: "Merriweather Sans";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 36px;
+	line-height: 45px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: #7b7777;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	justify-content: center;
+}
+.person4 {
+	position: absolute;
+	width: 250px;
+	height: 368px;
+	left: 940px;
+	top: 5px;
+}
+.img15 {
+	position: absolute;
+	width: 250px;
+	height: 250px;
+	left: 0px;
+	border-radius: 200px;
+	top: 0px;
+}
+.name4 {
+	position: absolute;
+	width: 172px;
+	height: 45px;
+	left: 30px;
+	top: 280px;
+	font-family: "Merriweather Sans";
+	font-style: normal;
+	font-weight: 800;
+	font-size: 36px;
+	line-height: 45px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: #7b7777;
+	justify-content: center;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.position4 {
+	position: absolute;
+	width: 198px;
+	height: 45px;
+	left: 20px;
+	top: 330px;
+	font-family: "Merriweather Sans";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 36px;
+	line-height: 45px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: #7b7777;
+	justify-content: center;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.but_contact {
+	position: absolute;
+	width: 362px;
+	height: 103px;
+	left: 539px;
+	top: 877px;
+	background: #d9d9d9;
+	box-shadow: inset 0px 4px 10px rgb(0 0 0 / 75%);
+	border-radius: 100px;
+}
+.but_contact a {
+	position: absolute;
+	width: 255px;
+	height: 60px;
+	left: 55px;
+	top: 15px;
+	font-family: "Merriweather Sans";
+	font-style: normal;
+	font-weight: 800;
+	font-size: 48px;
+	line-height: 60px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: #ffffff;
+	text-shadow: 0px 4px 4px rgb(0 0 0 / 75%);
+	justify-content: center;
+}
+#contact-us {
+	position: relative;
+	/* width: 1440px; */
+	height: 1024px;
+	background: #ffffff;
+}
+.grey_2 {
+	position: absolute;
+	width: 95%;
+	height: 207px;
+	left: 31px;
+	top: 211px;
+	background: #d9d9d9;
+}
+.img16 {
+	position: absolute;
+	width: 490px;
+	height: 659px;
+	left: 260px;
+	top: 25px;
+}
+.form {
+	position: absolute;
+	width: 556px;
+	height: 672px;
+	left: 650px;
+	top: 70px;
+	background: rgba(174, 174, 174, 0.9);
+	box-shadow: 10px 10px 4px rgb(0 0 0 / 80%);
+	border-radius: 70px;
+}
+.form h3 {
+	position: absolute;
+	width: 227px;
+	height: 56px;
+	left: 185px;
+	top: 20px;
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 800;
+	font-size: 40px;
+	line-height: 48px;
+	color: #ffffff;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+form {
+	margin-left: 0px;
+	position: absolute;
+	top: 90px;
+	left: 70px;
+	width: 0px;
+}
+.input1 {
+	position: absolute;
+	width: 416.48px;
+	height: 68.46px;
+	left: 0px;
+	top: 10px;
+	background: #ffffff;
+	border-top-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	border-radius: 25px;
+	padding-left: 20px;
+}
+.input2 {
+	position: absolute;
+	width: 416.48px;
+	height: 68.46px;
+	left: 0px;
+	top: 130px;
+	background: #ffffff;
+	border-radius: 25px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-width: 0px;
+	padding-left: 20px;
+}
+textarea {
+	position: absolute;
+	width: 416px;
+	height: 94px;
+	left: 0px;
+	top: 250px;
+	background: rgb(255, 255, 255);
+	border-radius: 25px;
+	border-width: 0px;
+	padding-left: 20px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+}
+.submit {
+	position: absolute;
+	width: 416.48px;
+	height: 68.46px;
+	left: 80px;
+	top: 530px;
+	background: #ffffff;
+	box-shadow: 10px 10px 4px rgb(0 0 0 / 50%);
+	border-radius: 300px;
+}
+.submit a {
+	position: absolute;
+	width: 131.19px;
+	height: 46.34px;
+	left: 150px;
+	top: 10px;
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 44px;
+	color: #7b7777;
+	text-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+}
+footer {
+	position: absolute;
+	/* width: 1440px; */
+	height: 248px;
+	left: 0px;
+	top: 6950px;
+	background: #7b7777;
+	width: 100%;
+}
+.img18 {
+	position: absolute;
+	width: 92px;
+	height: 78px;
+	left: 57px;
+	top: 20px;
+}
+.tel {
+	position: absolute;
+	width: 182px;
+	height: 29px;
+	left: 150px;
+	/* top: 829px; */
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 29px;
+	color: #ffffff;
+	justify-content: center;
+	top: 45px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.img19 {
+	position: absolute;
+	width: 92px;
+	height: 72px;
+	left: 57px;
+	/* top: 870px; */
+	margin-top: 0px;
+	top: 100px;
+}
+.email {
+	position: absolute;
+	width: 247px;
+	height: 29px;
+	left: 150px;
+	/* top: 888px; */
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 29px;
+	color: #ffffff;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	top: 120px;
+	justify-content: center;
+}
+.img17 {
+	position: absolute;
+	width: 160px;
+	height: 150px;
+	left: 630px;
+	/* top: 779px; */
+	margin-bottom: 0px;
+	bottom: 90px;
+	top: 0px;
+}
+.img20 {
+	position: absolute;
+	width: 88px;
+	height: 67px;
+	left: 434px;
+	/* top: 910px; */
+	top: 125px;
+}
+.address {
+	position: absolute;
+	width: 442px;
+	height: 29px;
+	left: 522px;
+	/* top: 929px; */
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 29px;
+	color: #ffffff;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	top: 145px;
+}
+.img21 {
+	position: absolute;
+	width: 100px;
+	height: 70px;
+	left: 985px;
+	/* top: 811px; */
+	top: 20px;
+	margin-top: 3px;
+}
+.fb {
+	position: absolute;
+	width: 140px;
+	height: 29px;
+	left: 1082px;
+	/* top: 829px; */
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 29px;
+	color: #ffffff;
+	justify-content: center;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	top: 45px;
+}
+.img22 {
+	position: absolute;
+	width: 70px;
+	height: 70px;
+	left: 1000px;
+	/* top: 869px; */
+	top: 100px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	padding-bottom: 0px;
+}
+.insta {
+	position: absolute;
+	width: 150px;
+	height: 29px;
+	left: 1073px;
+	/* top: 891px; */
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 29px;
+	color: #ffffff;
+	justify-content: center;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	top: 120px;
+}
+.copy {
+	position: absolute;
+	width: 395px;
+	height: 27px;
+	left: 540px;
+	/* top: 986px; */
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 22px;
+	line-height: 27px;
+	color: #ffffff;
+	justify-content: center;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	top: 210px;
+}
+
+@media only screen and (max-width: 360px) {
+	.logo {
+		position: absolute;
+		width: 45px;
+		height: 45px;
+		left: 0px;
+		top: 0px;
+		margin-left: 0px;
+		margin-right: 0px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+	.navbar {
+		display: none;
+	}
+	.hidden {
+		display: block;
+		position: absolute;
+		width: 40px;
+		height: 40px;
+		left: 300px;
+		top: 5px;
+	}
+	.banner {
+		background: url(./Images/zyro-image.png) no-repeat 50%;
+		background-size: cover;
+		background-position: center;
+
+		padding-top: 1px;
+		position: absolute;
+
+		height: 403px;
+		left: 0px;
+		top: 0px;
+		width: 360px;
+	}
+	.banner h1 {
+		position: absolute;
+		width: 302.84px;
+		height: 44.02px;
+		left: 8px;
+		top: 176.28px;
+		font-family: "Merriweather";
+		font-style: normal;
+		font-weight: 700;
+		font-size: 20px;
+		line-height: 25px;
+		display: flex;
+		align-items: center;
+		text-align: center;
+		color: rgba(123, 119, 119, 0.8);
+		margin-top: 0px;
+		margin-bottom: 0px;
+		margin-left: 0px;
+	}
+	.title {
+		position: absolute;
+		width: 199px;
+		height: 37px;
+		left: 21px;
+		top: 220px;
+		font-family: "Merriweather";
+		font-style: normal;
+		font-weight: 700;
+		font-size: 20px;
+		line-height: 25px;
+		display: flex;
+		align-items: center;
+		text-align: center;
+		color: rgba(123, 119, 119, 0.8);
+		margin-left: 0px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+	.name {
+		position: absolute;
+		width: 125px;
+		height: 34px;
+		left: 27px;
+		top: 305px;
+		font-family: "Merriweather";
+		font-style: italic;
+		font-weight: 700;
+		font-size: 22px;
+		line-height: 28px;
+		display: flex;
+		align-items: center;
+		text-align: center;
+		margin-top: 0px;
+		margin-bottom: 0px;
+		margin-left: 0px;
+	}
+	.about {
+		left: 20px;
+	}
+	.about h2 {
+		position: absolute;
+		width: 216px;
+		height: 39px;
+		left: 60px;
+		top: 230px;
+		font-family: "Merriweather Sans";
+		font-style: normal;
+		font-weight: 700;
+		font-size: 20px;
+		line-height: 25px;
+		display: flex;
+		align-items: center;
+		text-align: center;
+		color: #7b7777;
+		margin-top: 0px;
+		margin-bottom: 0px;
+		bottom: 0px;
+	}
+	.about1 {
+		left: 20px;
+		top: 320px;
+		width: 320px;
+	}
+	.about1 p {
+		position: absolute;
+		width: 290px;
+		height: 250px;
+		left: 0px;
+		top: 100px;
+		font-family: "Merriweather Sans";
+		font-style: normal;
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 20px;
+		display: flex;
+		align-items: center;
+		color: rgba(0, 0, 0, 0.65);
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+	.button {
+		position: absolute;
+		width: 150px;
+		height: 53px;
+		left: 30px;
+		top: 650px;
+		background: #a3bb98;
+		box-shadow: inset 0px 4px 10px rgb(0 0 0 / 25%);
+		border-radius: 50px;
+	}
+	.but_text {
+		width: 123px;
+		height: 23px;
+		left: 38px;
+		top: 713px;
+		font-family: "Merriweather Sans";
+		font-style: normal;
+		font-weight: 400;
+		font-size: 18px;
+		line-height: 23px;
+		display: flex;
+		align-items: center;
+		color: #ffffff;
+		margin-left: 10px;
+		margin-top: 10px;
+	}
+	.grey {
+		position: absolute;
+		width: 122px;
+		height: 137px;
+		left: 200px;
+		top: 630px;
+	}
+	.img1 {
+		position: absolute;
+		width: 129px;
+		height: 119px;
+		left: 210px;
+		top: 640px;
+	}
+	.img2 {
+		position: absolute;
+		width: 160px;
+		height: 100px;
+		left: 45px;
+		top: 730px;
+	}
+	.container2 {
+		height: 600px;
+	}
+	.img3 {
+		position: absolute;
+		width: 172px;
+		height: 268px;
+		top: 300px;
+		left: 50px;
+	}
+	.img4 {
+		position: absolute;
+		width: 207px;
+		height: 265px;
+		left: 100px;
+		top: 330px;
+	}
+	.about2 {
+		position: absolute;
+		width: 300px;
+		height: 250px;
+		left: 30px;
+		top: 0px;
+		bottom: 0px;
+	}
+	.about2 p {
+		margin-top: 20px;
+		margin-left: 20px;
+		width: 250px;
+		height: 200px;
+	}
+	.container3 {
+		height: 650px;
+	}
+	.img5 {
+		position: absolute;
+		width: 200px;
+		height: 564px;
+		left: 120px;
+		top: 0px;
+	}
+	.projects {
+		position: absolute;
+		width: 150px;
+		height: 150px;
+		left: 150px;
+		top: 0px;
+		background: rgba(255, 177, 0, 0.95);
+		/* filter: blur(5px); */
+		border-radius: 200px;
+	}
+	.img6 {
+		position: absolute;
+		width: 40px;
+		height: 40px;
+		left: 50px;
+		top: 30px;
+	}
+	.pro {
+		position: absolute;
+		width: 67.5px;
+		height: 19.88px;
+		left: 40px;
+		top: 80px;
+		font-family: "Merriweather Sans";
+		font-style: normal;
+		font-weight: 700;
+		font-size: 16px;
+		line-height: 20px;
+		display: flex;
+		align-items: center;
+		color: #ffffff;
+	}
+	.pro_100 {
+		position: absolute;
+		width: 35px;
+		height: 19px;
+		left: 50px;
+		top: 100px;
+		font-family: "Merriweather Sans";
+		font-style: normal;
+		font-weight: 700;
+		font-size: 16px;
+		line-height: 20px;
+		display: flex;
+		align-items: center;
+		color: #ffffff;
+	}
+	.awards {
+		position: absolute;
+		width: 150px;
+		height: 150px;
+		left: 150px;
+		top: 170px;
+	}
+	.img7 {
+		width: 40px;
+		height: 40px;
+		top: 20px;
+		left: 55px;
+	}
+	.awar {
+		top: 70px;
+		left: 35px;
+		width: 80px;
+		height: 40px;
+	}
+	.awar_60 {
+		top: 90px;
+		left: 45px;
+	}
+	.clients {
+		position: absolute;
+		width: 150px;
+		height: 150px;
+		left: 150px;
+		top: 340px;
+	}
+	.img8 {
+		top: 10px;
+		left: 55px;
+		width: 40px;
+		height: 40px;
+	}
+	.cli {
+		left: 25px;
+		top: 70px;
+		width: 100px;
+	}
+	.cli_50 {
+		top: 90px;
+		left: 45px;
+	}
+	.team {
+		position: absolute;
+		width: 150px;
+		height: 150px;
+		left: 150px;
+		top: 500px;
+	}
+	.img9 {
+		left: 55px;
+		top: 10px;
+		height: 40px;
+		width: 40px;
+	}
+	.team_1 {
+		top: 90px;
+		left: 25px;
+		width: 100px;
+		height: 30px;
+	}
+	.team15 {
+		top: 100px;
+		left: 55px;
+	}
+	.img10 {
+		display: none;
+	}
+	.services-title {
+		left: 30px;
+		top: 30px;
+		width: 300px;
+	}
+	.services-title h2 {
+		left: 10px;
+	}
+	.design_concept {
+		position: absolute;
+		width: 300px;
+		height: 250px;
+		left: 10px;
+		top: 170px;
+		background: rgba(255, 255, 255, 0.85);
+		border-radius: 70px 0px;
+	}
+	.design_concept h3 {
+		margin-left: 60px;
+		margin-top: 10px;
+		margin-bottom: 30px;
+		width: 200px;
+		height: 40px;
+	}
+	.design_concept p {
+		margin-top: 0px;
+		margin-left: 15px;
+		width: 250px;
+		height: 150px;
+	}
+	.space_planning {
+		position: absolute;
+		width: 300px;
+		height: 250px;
+		left: 40px;
+		top: 440px;
+		background: rgba(255, 255, 255, 0.85);
+		border-radius: 70px 0px;
+	}
+	.space_planning h3 {
+		margin-top: 10px;
+		margin-left: 60px;
+		width: 200px;
+		margin-bottom: 0px;
+	}
+	.space_planning p {
+		width: 270px;
+		margin-left: 10px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+		height: 200px;
+	}
+	.lighting {
+		position: absolute;
+		width: 300px;
+		height: 250px;
+		left: 10px;
+		top: 710px;
+		background: rgba(255, 255, 255, 0.85);
+		border-radius: 70px 0px;
+	}
+	.lighting h3 {
+		margin-top: 10px;
+		margin-left: 70px;
+		margin-bottom: 0px;
+	}
+	.lighting p {
+		width: 250px;
+		margin-top: 0px;
+		margin-left: 10px;
+		height: 200px;
+	}
+	.but {
+		position: absolute;
+		width: 100px;
+		height: 100px;
+		left: 200px;
+		top: 970px;
+	}
+	#butt {
+		position: absolute;
+		width: 60px;
+		height: 105px;
+
+		left: 27px;
+		top: 5px;
+		font-family: "Merriweather Sans";
+		font-style: italic;
+		font-weight: bold;
+		font-size: 96px;
+		line-height: 121px;
+		display: flex;
+		align-items: center;
+		text-align: center;
+		color: #7b7777;
+	}
+	.img11 {
+		position: absolute;
+		width: 360px;
+		height: 1300px;
+		left: 0px;
+		top: 1300px;
+	}
+	.team_title {
+		position: absolute;
+		width: 147px;
+		height: 46px;
+		left: 20px;
+		top: 1320px;
+		font-family: "Merriweather Sans";
+		font-style: italic;
+		font-weight: 800;
+		font-size: 30px;
+		line-height: 38px;
+		display: flex;
+		align-items: center;
+		text-align: center;
+		color: #ffffff;
+		text-shadow: 0px 6px 4px rgb(0 0 0 / 75%);
+	}
+	.persons {
+		position: absolute;
+		width: 1200px;
+		height: 444px;
+		left: 70px;
+		top: 390px;
+		background-color: none
+		/* background: rgba(241, 240, 240, 0.8); */
+	}
+	.person1 {
+		position: absolute;
+		width: 149px;
+		height: 202px;
+		left: 0px;
+		top: 1000px;
+	}
+	.img12 {
+		left: 0px;
+		width: 200px;
+		height: 200px;
+	}
+	.name1 {
+		position: absolute;
+		width: 143px;
+		height: 45px;
+		left: 30px;
+		top: 230px;
+		font-family: "Merriweather Sans";
+		font-style: normal;
+		font-weight: 800;
+		font-size: 22px;
+		line-height: 45px;
+		display: flex;
+		align-items: center;
+		text-align: center;
+		margin-top: 0px;
+		margin-bottom: 0px;
+		justify-content: center;
+		color: #7b7777;
+	}
+	.position1 {
+		left: 5px;
+		top: 260px;
+		width: 200px;
+		font-size: 22px;
+	}
+	.person2 {
+		position: absolute;
+		width: 149px;
+		height: 202px;
+		left: 0px;
+		top: 1310px;
+	}
+	.img13 {
+		width: 200px;
+		height: 200px;
+		border-radius: 150px;
+	}
+	.name2 {
+		left: 50px;
+		top: 200px;
+		font-size: 22px;
+	}
+	.position2 {
+		width: 200px;
+		height: 40px;
+		left: 5px;
+		top: 230px;
+		font-size: 22px;
+	}
+	.person3 {
+		position: absolute;
+		width: 149px;
+		height: 202px;
+		left: 0px;
+		top: 1580px;
+	}
+	.img14 {
+		width: 200px;
+		height: 200px;
+		border-radius: 200px;
+	}
+	.name3 {
+		left: 50px;
+		top: 200px;
+		font-size: 22px;
+	}
+	.position3 {
+		left: 0px;
+		top: 230px;
+		font-size: 22px;
+	}
+	.person4 {
+		position: absolute;
+		width: 149px;
+		height: 202px;
+		left: 0px;
+		top: 1850px;
+	}
+	.img15 {
+		width: 200px;
+		height: 200px;
+		border-radius: 200px;
+	}
+	.name4 {
+		left: 10px;
+		top: 200px;
+		font-size: 22px;
+	}
+	.position4 {
+		left: 0px;
+		top: 230px;
+		font-size: 22px;
+	}
+	.but_contact {
+		position: absolute;
+		width: 200px;
+		height: 70px;
+		left: 70px;
+		top: 2520px;
+	}
+	.but_contact a {
+		left: 0px;
+		top: 5px;
+		width: 200px;
+		font-weight: 22px;
+	}
+	.grey_2 {
+		display: none;
+	}
+	.img16 {
+		position: absolute;
+		width: 300px;
+		height: 450px;
+		left: 10px;
+		top: 1650px;
+	}
+	.form {
+		position: absolute;
+		width: 300px;
+		height: 475px;
+		top: 1700px;
+		left: 40px;
+	}
+	.form h3 {
+		left: 100px;
+		width: 150px;
+		top: 10px;
+		font-size: 24px;
+	}
+	form {
+		width: 300px;
+		left: 10px;
+		height: 430px;
+		top: 60px;
+	}
+	.input1 {
+		position: absolute;
+		width: 250px;
+		height: 68.46px;
+		left: 0px;
+		top: 10px;
+		background: #ffffff;
+		border-top-width: 0px;
+		border-bottom-width: 0px;
+		border-left-width: 0px;
+		border-right-width: 0px;
+		border-radius: 25px;
+		padding-left: 20px;
+	}
+	.input2 {
+		position: absolute;
+		width: 250px;
+		height: 68.46px;
+		left: 0px;
+		top: 100px;
+		background: #ffffff;
+		border-radius: 25px;
+		border-right-width: 0px;
+		border-bottom-width: 0px;
+		border-left-width: 0px;
+		border-top-width: 0px;
+		padding-left: 20px;
+	}
+	textarea {
+		position: absolute;
+		width: 250px;
+		height: 94px;
+		left: 0px;
+		top: 200px;
+		background: rgb(255, 255, 255);
+		border-radius: 25px;
+		border-width: 0px;
+		padding-left: 20px;
+		padding-top: 0px;
+		padding-bottom: 0px;
+		padding-right: 0px;
+	}
+	.submit {
+		top: 380px;
+		left: 50px;
+		width: 200px;
+	}
+	.submit a {
+		position: absolute;
+		width: 120px;
+		height: 46.34px;
+		left: 60px;
+		top: 10px;
+		font-family: "Inter";
+		font-style: normal;
+		font-weight: 700;
+		font-size: 26px;
+		line-height: 44px;
+		color: #7b7777;
+		text-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+	}
+	footer {
+		position: absolute;
+		width: 360px;
+		height: 200px;
+		left: 0px;
+		top: 5500px;
+	}
+	.img18 {
+		left: 0px;
+		width: 30px;
+		height: 40px;
+		top: 10px;
+	}
+	.tel {
+		width: 110px;
+		left: 25px;
+		top: 15px;
+		font-size: 16px;
+	}
+	.img19 {
+		width: 30px;
+		height: 40px;
+		left: 0px;
+		top: 40px;
+	}
+	.email {
+		left: 25px;
+		top: 45px;
+		font-size: 16px;
+	}
+	.img17 {
+		width: 70px;
+		height: 70px;
+		left: 290px;
+		top: 0px;
+	}
+	.img20 {
+		left: 175px;
+		width: 40px;
+		height: 50px;
+		top: 70px;
+	}
+	.address {
+		left: 210px;
+		width: 150px;
+		top: 80px;
+		height: 60px;
+		font-size: 16px;
+	}
+	.img21 {
+		left: 0px;
+		top: 80px;
+		width: 30px;
+		height: 40px;
+		margin-top: 0px;
+	}
+	.fb {
+		left: 25px;
+		top: 85px;
+		font-size: 16px;
+	}
+	.img22 {
+		left: 0px;
+		width: 30px;
+		height: 40px;
+		top: 110px;
+	}
+	.insta {
+		left: 25px;
+		top: 115px;
+		font-size: 16px;
+	}
+	.copy {
+		left: 55px;
+		top: 170px;
+		width: 250px;
+		font-size: 16px;
+	}
+}
