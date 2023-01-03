@@ -530,9 +530,8 @@
 .advices h3 {
 	position: absolute;
 	width: 187px;
-	height: 41px;
-	left: 20px;
-	/* top: 2874px; */
+	left: 100px;
+	width: 100px;
 	font-family: "Merriweather Sans";
 	font-style: normal;
 	font-weight: 800;
@@ -548,8 +547,6 @@
 	position: absolute;
 	width: 187px;
 	height: 41px;
-	left: 25px;
-	/* top: 2922px; */
 	font-family: "Merriweather Sans";
 	font-style: normal;
 	font-weight: 700;
@@ -557,7 +554,10 @@
 	line-height: 30px;
 	text-align: center;
 	color: #004aad;
-	top: 80px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	top: 110px;
+	left: 30px;
 }
 .but1 {
 	position: absolute;
@@ -594,10 +594,9 @@
 }
 .complete h4 {
 	position: absolute;
-	width: 217px;
-	height: 41px;
-	left: 15px;
-	top: 50px;
+	width: 100px;
+	left: 100px;
+	top: 80px;
 	font-family: "Merriweather Sans";
 	font-style: normal;
 	font-weight: 700;
@@ -606,13 +605,13 @@
 	text-align: center;
 	margin-top: 0px;
 	margin-bottom: 0px;
-	color: #004aad;
+	color: #38b6ff;
 }
 .complete h3 {
 	position: absolute;
-	width: 187px;
 	height: 41px;
-	left: 20px;
+	width: 100px;
+	left: 100px;
 	top: 80px;
 	font-family: "Merriweather Sans";
 	font-style: normal;
@@ -628,8 +627,8 @@
 	position: absolute;
 	width: 187px;
 	height: 41px;
-	left: 25px;
-	top: 120px;
+	left: 35px;
+	top: 110px;
 	font-family: "Merriweather Sans";
 	font-style: normal;
 	font-weight: 700;
@@ -646,8 +645,8 @@
 	position: absolute;
 	width: 200px;
 	height: 68px;
-	left: 30px;
-	top: 200px;
+	top: 190px;
+	left: 35px;
 	font-family: "Merriweather Sans";
 	font-style: normal;
 	font-weight: 800;
@@ -765,11 +764,11 @@
 	color: #ffffff;
 }
 footer {
-    position: absolute;
-    /* width: 1440px; */
-    height: 248px;
-    left: 0px;
-    top: 3370px;
-    background: #7b7777;
-    width: 100%;
+	position: absolute;
+	/* width: 1440px; */
+	height: 248px;
+	left: 0px;
+	top: 3370px;
+	background: #7b7777;
+	width: 100%;
 }
