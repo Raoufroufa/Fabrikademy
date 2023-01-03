@@ -530,7 +530,6 @@
 }
 .advices h3 {
 	position: absolute;
-	width: 187px;
 	left: 100px;
 	width: 100px;
 	font-family: "Merriweather Sans";
@@ -557,7 +556,7 @@
 	color: #004aad;
 	margin-bottom: 0px;
 	margin-top: 0px;
-	top: 110px;
+	top: 120px;
 	left: 30px;
 }
 .but1 {
@@ -595,9 +594,9 @@
 }
 .complete h4 {
 	position: absolute;
-	width: 100px;
-	left: 100px;
-	top: 80px;
+	width: 200px;
+	left: 30px;
+	top: 50px;
 	font-family: "Merriweather Sans";
 	font-style: normal;
 	font-weight: 700;
@@ -606,14 +605,14 @@
 	text-align: center;
 	margin-top: 0px;
 	margin-bottom: 0px;
-	color: #38b6ff;
+	color: #004aad;
 }
 .complete h3 {
 	position: absolute;
 	height: 41px;
 	width: 100px;
-	left: 100px;
-	top: 80px;
+	top: 90px;
+	left: 110px;
 	font-family: "Merriweather Sans";
 	font-style: normal;
 	font-weight: 800;
@@ -628,8 +627,8 @@
 	position: absolute;
 	width: 187px;
 	height: 41px;
-	left: 35px;
-	top: 110px;
+	top: 120px;
+	left: 40px;
 	font-family: "Merriweather Sans";
 	font-style: normal;
 	font-weight: 700;
@@ -642,12 +641,12 @@
 	border-bottom-width: 30px;
 	bottom: 0px;
 }
-.most {
+#most {
 	position: absolute;
+	top: 180px;
 	width: 200px;
-	height: 68px;
-	top: 190px;
-	left: 35px;
+	left: 30px;
+	height: 70px;
 	font-family: "Merriweather Sans";
 	font-style: normal;
 	font-weight: 800;
@@ -713,8 +712,8 @@
 	position: absolute;
 	width: 187px;
 	height: 41px;
-	left: 25px;
-	top: 80px;
+	left: 100px;
+	top: 90px;
 	font-family: "Merriweather Sans";
 	font-style: normal;
 	font-weight: 800;
@@ -729,7 +728,7 @@
 	position: absolute;
 	width: 187px;
 	height: 41px;
-	left: 25px;
+	left: 35px;
 	top: 120px;
 	font-family: "Merriweather Sans";
 	font-style: normal;
